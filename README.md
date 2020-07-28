@@ -20,5 +20,5 @@ If you want to go into the mathematics, you can have a look below or if you hate
 # Live Example
 
 # Credit
-- Tensorflow.js 
+- [Tensorflow.js](https://www.tensorflow.org/js)  
 - [Linear Regression](https://medium.com/data-science-group-iitr/linear-regression-back-to-basics-e4819829d78b)
