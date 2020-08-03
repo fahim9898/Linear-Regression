@@ -16,8 +16,10 @@ const y_values=[];
 function setup() {
   
   // Setup canvas
-  canvas = createCanvas(windowWidth / 2, windowHeight / 1.5);
-  canvas.position(windowWidth / 4, windowHeight / 6)
+  // canvas = createCanvas(windowWidth / 2, windowHeight / 1.5);
+  // canvas.position(windowWidth / 4, windowHeight / 6)
+  canvas = createCanvas(windowWidth, windowHeight);
+  // canvas.position(windowWidth , windowHeight  )
   body = document.getElementById("body");
   body.style.backgroundColor = "#7e90ab"
   
@@ -26,6 +28,11 @@ function setup() {
   b = tf.variable(tf.scalar(random(1)));                             // Defined tf variabe b
 	// m.print();
 	model=tf.train.sgd(lr);
+}
+
+function windowResized(){
+  canvas = resizeCanvas(windowWidth, windowHeight);
+  // canvas.position(windowWidth , windowHeight )
 }
 
 function draw() {
