@@ -3,6 +3,7 @@
 
 # Demo
 ![best](https://i.imgur.com/nQUZpJI.gif)
+- [Live link](https://fahim9898.github.io/Linear-Regression/)
 
 # What is Linear Regression?
 It’s a method to predict a target variable by fitting the best linear relationship between the dependent and independent variable.
